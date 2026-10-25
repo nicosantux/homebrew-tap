@@ -2,27 +2,27 @@
 class Qcs < Formula
   desc "Assign and inspect which git identity is used in each folder or repository"
   homepage "https://github.com/nicosantux/qcs"
-  version "1.0.1" # x-release-please-version
+  version "1.1.0" # x-release-please-version
 
   on_macos do
     on_arm do
       url "https://github.com/nicosantux/qcs/releases/download/v#{version}/qcs-darwin-arm64.tar.gz"
-      sha256 "21fd65f33ca5c437863e2debc7d80da66927f734141734b383272a18383a4942"
+      sha256 "b597a42cb44c2cb49399a686015b1ca9e0ade703c08dedce5d4ac83ee859e546"
     end
     on_intel do
       url "https://github.com/nicosantux/qcs/releases/download/v#{version}/qcs-darwin-x64.tar.gz"
-      sha256 "8af37d6ffa502f34d7e8250812b7edea22f59074e2fdec18cd0f7cca0fbccb72"
+      sha256 "6b83e79eb4407b9996b336282250cbcfcc6a5d958824abf7aa68c909b022d4ed"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nicosantux/qcs/releases/download/v#{version}/qcs-linux-arm64.tar.gz"
-      sha256 "28e0fd2fcb25a70293165ce28c2761f6ae8eab526628e1d808d5eb9403473107"
+      sha256 "d81e884641b9c0e6f4ab443e361a8a3ff327019183ec6b273fb14e2cafc84d3a"
     end
     on_intel do
       url "https://github.com/nicosantux/qcs/releases/download/v#{version}/qcs-linux-x64.tar.gz"
-      sha256 "eba52488af7cd6c678cd0b37e22613a5a858f07584fad2e630512eff33f4762c"
+      sha256 "3c84ef6aa8edac4398f8b36e03cbfbb1d212e02dccaeea33ca7133d4221578a5"
     end
   end
 
